@@ -3,8 +3,8 @@
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>ZYN Bot</title><style>body{display:flex;align-items:center;justify-content:center;height:100vh;margin:0;background:#0f0c29;color:#fff;font-family:sans-serif;text-align:center;padding:20px}*{margin:0;padding:0;box-sizing:border-box}.card{background:rgba(255,255,255,.05);backdrop-filter:blur(12px);border-radius:20px;padding:40px;border:1px solid rgba(255,255,255,.1)}.spinner{width:40px;height:40px;border:3px solid rgba(255,255,255,.1);border-top-color:#fff;border-radius:50%;animation:spin .8s linear infinite;margin:0 auto 20px}@keyframes spin{to{transform:rotate(360deg)}}h1{font-size:22px;margin-bottom:8px}p{color:#aaa;font-size:14px}.status{display:none;margin-top:16px;padding:12px;border-radius:10px;font-size:14px}.online{background:rgba(0,200,83,.15);color:#00c853}.offline{background:rgba(255,55,55,.15);color:#ff3737}</style></head>
 <body><div class="card"><div class="spinner" id="spinner"></div><h1>ZYN Bot</h1><p id="msg">جاري فحص حالة البوت...</p><div class="status" id="status"></div></div>
 <script>
-const API_URL = 'https://travesti-helena-gains-protocols.trycloudflare.com/api';
-const APP_URL = 'https://travesti-helena-gains-protocols.trycloudflare.com';
+const API_URL = 'https://continues-pdas-hitachi-hawk.trycloudflare.com/api';
+const APP_URL = 'https://continues-pdas-hitachi-hawk.trycloudflare.com';
 (async()=>{
 try{const r=await fetch(API_URL+'/reels/feed?limit=1',{signal:AbortSignal.timeout(5000)});
 if(r.ok){document.getElementById('status').className='status online';document.getElementById('status').textContent='✅ البوت شغال';window.location.href=APP_URL}
